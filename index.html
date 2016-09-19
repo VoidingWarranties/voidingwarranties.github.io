@@ -7,45 +7,61 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Jordan Horwich</h1>
-  <nav>
-    <ul>
-      <li><a class="active" href="/index.html">Work</a></li>
-      <li><a href="/projects.html">Projects</a></li>
-      <li><a href="/education.html">Education</a></li>
-    </ul>
-  </nav>
-  <section>
-    <h3>Nebulous Inc.</h3>
-    <h4>Software Engineer & First Employee</h4>
-    <h5><time datetime="2015-12">Dec. 2015</time> – Present</h5>
-    <p>BOSTON — Nebulous is a four person startup and creator of <a href="https://sia.tech">Sia</a>, an <a href="https://github.com/NebulousLabs/Sia">open-source</a> blockchain-based decentralized storage marketplace. Sia's decentralized peer-to-peer network provided unique challenges. Much of my time was spent securing the gateway code that maintains the peer-to-peer network to prevent against eclipse attacks. We released Sia version 1.0 in June and to date have raised $1.25 million in funding.</p>
-  </section>
-  <section>
-    <h3>LinkedIn</h3>
-    <h4>Software Engineer Intern</h4>
-    <h5><time datetime="2015-05">May</time> – <time datetime="2015-08">Aug. 2015</time></h5>
-    <p>MOUNTAIN VIEW — LinkedIn's homepage team is responsible for LinkedIn's homepage and news feed. As the most visited page on LinkedIn, writing new features for the homepage required careful consideration to ensure load times were not affected. On the team I was responsible for creating company and school mini-profiles, and adding a permalink UI to individual news updates. These features used the Scala Play Framework server-side and Dust.js client-side.</p>
-  </section>
-  <section>
-    <h3>Intentional Software</h3>
-    <h4>Software Engineer Intern</h4>
-    <h5><time datetime="2015-01">Jan.</time> – <time datetime="2015-05">May 2015</time></h5>
-    <p>BELLEVUE — At Intentional Software I was tasked with designing and creating alternative interfaces for interacting with large displays out of arms reach. This presented many unique design challenges; the interfaces needed to be intuitive, but in usability studies mimicking a touchscreen was too taxing on the user without physically being able to rest their arms on the display.</p>
-    <p>These challenges were solved using the greater degrees of freedom provided by a Microsoft Kinect. The Kinect enabled not only positional tracking, like a touchscreen, but also gesture and hand pose recognition. I wrote a hand pose classifier using feature matching in OpenCV to augment the Kinect's existing pose classifier, and wrote an <a href="https://github.com/VoidingWarranties/N-D-1-Recognizer">N-dimensional implementation</a> of <a href="https://depts.washington.edu/aimgroup/proj/dollar/">UW's $1 Recognizer</a> for atomic gesture recognition.</p>
-  </section>
-  <section>
-    <h3>Bloomberg L.P.</h3>
-    <h4>Software Engineer Intern</h4>
-    <h5><time datetime="2014-05">May</time> – <time datetime="2014-08">Aug. 2014</time></h5>
-    <p>NEW YORK — Bloomberg obtains market data from a variety of data sources which often provide incorrect data, often as a result of human error. When errors are noticed by clients it is important to track the error to the source so as to differentiate between errors from external sources and internal bugs. I designed and developed a Bloomberg Terminal application for internal use to trace the source of these errors and provide a simple interface for fixing errors from external sources. Even before it was finished, the tool was being used to significantly reduce the time between noticing data errors and fixing them.</p>
-  </section>
-  <section>
-    <h3>Mimir Physics</h3>
-    <h4>Software Engineer & Physics Consultant</h4>
-    <h5><time datetime="2012-05">May 2012</time> – <time datetime="2013-08">Aug. 2013</time></h5>
-    <p>PORTLAND — Mimir Physics developed one of the world's most color accurate cameras. The target clients were museums and other archival industries that insisted on highly accurate non-intrusive digital archives. To this end, we created a camera that combined multiple exposures to obtain an absolute color error of ΔE* &lt; 1. At Mimir, I co-authored a patent (pending application) for normalizing spectra from multiple light sources.</p>
-  </section>
-  <address>jordan@jordanhorwich.com</address>
+  <header>
+    <h1>Jordan Horwich</h1>
+    <nav>
+      <ul>
+        <li><a class="active" href="/index.html">Work</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/education.html">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <header>
+        <h3>Nebulous Inc.</h3>
+        <h4>Software Engineer & First Employee</h4>
+        <h5><time datetime="2015-12">Dec. 2015</time> – Present</h5>
+      </header>
+      <p>BOSTON — Nebulous is a four person startup and creator of <a href="https://sia.tech">Sia</a>, an <a href="https://github.com/NebulousLabs/Sia">open-source</a> blockchain-based decentralized storage marketplace. Sia's decentralized peer-to-peer network provided unique challenges. Much of my time was spent securing the gateway code that maintains the peer-to-peer network to prevent against eclipse attacks. We released Sia version 1.0 in June and to date have raised $1.25 million in funding.</p>
+    </section>
+    <section>
+      <header>
+        <h3>LinkedIn</h3>
+        <h4>Software Engineer Intern</h4>
+        <h5><time datetime="2015-05">May</time> – <time datetime="2015-08">Aug. 2015</time></h5>
+      </header>
+      <p>MOUNTAIN VIEW — LinkedIn's homepage team is responsible for LinkedIn's homepage and news feed. As the most visited page on LinkedIn, writing new features for the homepage required careful consideration to ensure load times were not affected. On the team I was responsible for creating company and school mini-profiles, and adding a permalink UI to individual news updates. These features used the Scala Play Framework server-side and Dust.js client-side.</p>
+    </section>
+    <section>
+      <header>
+        <h3>Intentional Software</h3>
+        <h4>Software Engineer Intern</h4>
+        <h5><time datetime="2015-01">Jan.</time> – <time datetime="2015-05">May 2015</time></h5>
+      </header>
+      <p>BELLEVUE — At Intentional Software I was tasked with designing and creating alternative interfaces for interacting with large displays out of arms reach. This presented many unique design challenges; the interfaces needed to be intuitive, but in usability studies mimicking a touchscreen was too taxing on the user without physically being able to rest their arms on the display.</p>
+      <p>These challenges were solved using the greater degrees of freedom provided by a Microsoft Kinect. The Kinect enabled not only positional tracking, like a touchscreen, but also gesture and hand pose recognition. I wrote a hand pose classifier using feature matching in OpenCV to augment the Kinect's existing pose classifier, and wrote an <a href="https://github.com/VoidingWarranties/N-D-1-Recognizer">N-dimensional implementation</a> of <a href="https://depts.washington.edu/aimgroup/proj/dollar/">UW's $1 Recognizer</a> for atomic gesture recognition.</p>
+    </section>
+    <section>
+      <header>
+        <h3>Bloomberg L.P.</h3>
+        <h4>Software Engineer Intern</h4>
+        <h5><time datetime="2014-05">May</time> – <time datetime="2014-08">Aug. 2014</time></h5>
+      </header>
+      <p>NEW YORK — Bloomberg obtains market data from a variety of data sources which often provide incorrect data, often as a result of human error. When errors are noticed by clients it is important to track the error to the source so as to differentiate between errors from external sources and internal bugs. I designed and developed a Bloomberg Terminal application for internal use to trace the source of these errors and provide a simple interface for fixing errors from external sources. Even before it was finished, the tool was being used to significantly reduce the time between noticing data errors and fixing them.</p>
+    </section>
+    <section>
+      <header>
+        <h3>Mimir Physics</h3>
+        <h4>Software Engineer & Physics Consultant</h4>
+        <h5><time datetime="2012-05">May 2012</time> – <time datetime="2013-08">Aug. 2013</time></h5>
+      </header>
+      <p>PORTLAND — Mimir Physics developed one of the world's most color accurate cameras. The target clients were museums and other archival industries that insisted on highly accurate non-intrusive digital archives. To this end, we created a camera that combined multiple exposures to obtain an absolute color error of ΔE* &lt; 1. At Mimir, I co-authored a patent (pending application) for normalizing spectra from multiple light sources.</p>
+    </section>
+  </main>
+  <footer>
+    <address>jordan@jordanhorwich.com</address>
+  </footer>
 </body>
 </html>
